@@ -54,7 +54,7 @@ and you see
 1. register on https://portal.otomi.cloud/
     1. click on register cluster
     2. copy license key, and continue
-2. open UI, sign in with `otomi-admin` and the auto generated password.
+2. open UI, sign in with `otomi-admin` and your password.
 3. add the license and activate.
 4. once logged, left menu, download CA
 5. import the CA with `sudo security add-trusted-cert -d -r trustRoot -k /Library/Keychains/System.keychain <the downloaded CA></the>`
