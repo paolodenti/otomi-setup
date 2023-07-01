@@ -1,0 +1,13 @@
+cluster:
+  k8sVersion: "1.24"
+  name: minikube
+  provider: custom
+apps:
+  host-mods:
+    enabled: false
+  metrics-server:
+    enabled: true
+    _rawValues:
+      extraArgs:
+        kubelet-preferred-address-types: InternalIP
+        kubelet-insecure-tls: true
